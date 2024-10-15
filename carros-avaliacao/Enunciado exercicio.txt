@@ -1,0 +1,28 @@
+Neste exercício, use o conjunto de dados sobre avaliações de carros para criar um modelo de classificação usando Árvores de Decisão com Python. Os dados contêm seis atributos que são considerados para classificar os carros em diferentes níveis de aceitabilidade. Faça os seguintes passos:
+
+Separe os dados em treinamento e teste.
+Plote a árvore de decisão gerada.
+Calcule a acurácia de classificação obtido pelo modelo gerado.
+O conjunto de dados contém os atributos seus possíveis valores descritos a seguir, e está disponível no link abaixo:
+
+https://raw.githubusercontent.com/higoramario/univesp-com410-aprendizado-de-maquinas/main/carros-avaliacao.csv
+
+Atributos:
+
+preco: preço do carro (muito alto, alto, medio, baixo)
+manutencao: preço de manutenção (muito alto, alto, medio, baixo)
+portas: quantidade de portas (2, 3, 4, 5mais)
+pessoas: quantidade de portas (2, 4, 5mais)
+bagageiro: tamanho do bagageiro (grande, medio, pequeno)
+seguranca: segurança do carro (alta, media, baixa)
+aceitabilidade (atributo-alvo): nível de aceitabilidade (inaceitavel, aceitavel, bom, muito bom)
+
+Observações:
+
+A Videoaula 11 (Métodos de classificação supervisionada), da disciplina COM360 - Mineração de Dados, contém exemplos de criação de árvores de decisão com a biblioteca scikit-learn.
+Vídeo de apoio: Mineração de Dados - Métodos de classificação supervisionadas | UNIVESP
+https://www.youtube.com/watch?v=A-v9Rqv_TP0
+
+O dataset deste exercício é baseado no dataset Car Evaluation, que está em:
+Material de apoio: Car Evaluation
+https://archive.ics.uci.edu/dataset/19/car+evaluation
